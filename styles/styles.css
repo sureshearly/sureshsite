@@ -73,8 +73,8 @@
 body {
   display: none;
   margin: 0;
-  background-color: #333333;
-  color: var(--text-color);
+  background-color: #fff;
+  color: #202020;
   font-family: var(--body-font-family);
   font-size: var(--body-font-size-m);
   line-height: 1.6;
@@ -110,6 +110,7 @@ h6 {
   font-weight: 600;
   line-height: 1.25;
   scroll-margin: 40px;
+  color: #202020;
 }
  
 h1 {
@@ -190,7 +191,7 @@ button {
   max-width: 100%;
   margin: 12px 0;
   border: 2px solid transparent;
-  border-radius: 2.4em;
+  border-radius: 0;
   padding: 0.5em 1.2em;
   font-family: var(--body-font-family);
   font-style: normal;
@@ -198,12 +199,13 @@ button {
   line-height: 1.25;
   text-align: center;
   text-decoration: none;
-  background-color: var(--link-color);
-  color: var(--background-color);
+  background-color: #ffea00;
+  color: #000;
   cursor: pointer;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  text-transform: uppercase;
 }
  
 a.button:hover,
@@ -284,4 +286,12 @@ main .section.highlight {
 .dummytxt { 
   background-color: red;
   padding: 10px 0;
+}
+.wkndcar {
+  background-color: #ebebeb;
+}
+.wkndwhere .cards > ul > li,
+.wkndrecent .cards > ul > li {
+  border: 0px solid #dadada;
+  background-color: transparent;
 }

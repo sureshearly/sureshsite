@@ -207,7 +207,30 @@ button {
   white-space: nowrap;
   text-transform: uppercase;
 }
- 
+.wkndtxt a.button:any-link,
+.wkndtxt button {
+  box-sizing: border-box;
+  display: inline-block;
+  max-width: 100%;
+  margin: 0;
+  border: 0px solid transparent;
+  border-radius: 0;
+  padding: 0;
+  font-family: var(--body-font-family);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25;
+  text-align: center;
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
 a.button:hover,
 a.button:focus,
 button:hover,
@@ -294,4 +317,15 @@ main .section.highlight {
 .wkndrecent .cards > ul > li {
   border: 0px solid #dadada;
   background-color: transparent;
+}
+
+.wkndheadtxt a:any-link {
+  color: #fff;
+  text-decoration: none;
+  word-break: break-word;
+}
+ 
+.wkndheadtxt a:hover {
+  color: #fff;
+  text-decoration: underline;
 }

@@ -285,3 +285,6 @@ header nav .nav-tools {
   padding: 0 10px;
   height: 50px;
 }
+.nav-brand a:hover {
+  text-decoration: none;
+}

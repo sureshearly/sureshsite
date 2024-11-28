@@ -349,3 +349,14 @@ main .section.highlight {
   width: 200px;
   text-align: center;
 }
+.wkndrecent1 > button {
+
+  background-color: #ebebeb !important;
+}
+.wkndrecent1 a.button:hover,
+.wkndrecent1 a.button:focus,
+.wkndrecent1 button:hover,
+.wkndrecent1 button:focus {
+  background-color: var(--link-hover-color);
+  cursor: pointer;
+}

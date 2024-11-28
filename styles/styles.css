@@ -329,3 +329,12 @@ main .section.highlight {
   color: #fff;
   text-decoration: underline;
 }
+.wkndrecent .cards > ul > li img {
+  width: 200px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border: 37px;
+  border-radius: 60%;
+  overflow: hidden;
+  height: 200px;
+}

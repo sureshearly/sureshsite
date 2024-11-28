@@ -329,7 +329,7 @@ main .section.highlight {
   color: #fff;
   text-decoration: underline;
 }
-.wkndrecent .cards > ul > li img {
+.wkndrecent1 .cards > ul > li img {
   width: 200px;
   aspect-ratio: 4 / 3;
   object-fit: cover;
@@ -338,14 +338,14 @@ main .section.highlight {
   overflow: hidden;
   height: 200px;
 }
-.wkndrecent p {
+.wkndrecent1 p {
   font-size: 12px;
   margin: 10px 0;
 }
-.wkndrecent {
+.wkndrecent1 {
   margin: -40px 0 0 0 !important;
 }
-.wkndrecent h4, .wkndrecent h5 {
+.wkndrecent1 h4, .wkndrecent1 h5 {
   width: 200px;
   text-align: center;
 }

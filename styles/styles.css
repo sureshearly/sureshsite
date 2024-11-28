@@ -338,3 +338,14 @@ main .section.highlight {
   overflow: hidden;
   height: 200px;
 }
+.wkndrecent p {
+  font-size: 12px;
+  margin: 10px 0;
+}
+.wkndrecent {
+  margin: -40px 0 0 0 !important;
+}
+.wkndrecent h4, .wkndrecent h5 {
+  width: 200px;
+  text-align: center;
+}

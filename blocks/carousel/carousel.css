@@ -31,7 +31,11 @@
     width: 100%;
     min-height: min(50vw, calc(100dvh - var(--header-height)));
   }
-  
+  .wkndrecent1 .carousel .carousel-slide {
+    flex: 0 0 20%;
+    width: 20%;
+    margin: 0 2%;
+  }
   .carousel .carousel-slide:has(.carousel-slide-content[data-align='center']) {
     align-items: center;
   }

@@ -13,6 +13,40 @@ footer .footer > div {
 footer .footer p {
   margin: 0;
 }
+.wkndtxt {
+  display: inline-block;
+}
+.wkndtxt p {
+  font-size: 45px;
+  font-weight: bold;
+}
+.wkndheadtxt {
+  display: inline-block;
+  position: relative;
+  top: -20px;
+  margin-left: 40px;
+}
+.wkndheadtxt ul {
+  width: 20%;
+  float: left;
+}
+.wkndheadtxt ul {
+  padding: 0;
+}
+.wkndheadtxt li {
+  font-size: 13px;
+  font-weight: bold;
+  display: block;
+  list-style: none;
+  padding: 0 20px;
+}
+.wkndpara p {
+  font-size: 12px;
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
+  line-height: 22px;
+}
 .veniatxt {
   display: inline-block;
 }

@@ -360,23 +360,23 @@ main .section.highlight {
   background-color: var(--link-hover-color);
   cursor: pointer;
 }
-
-
+.venianxt {
+  text-align: center;
+}
 .veniacar {
-  background-color: #ebebeb;
+  background-color: transparent;
+  text-align: center;
 }
 .veniawhere .cards > ul > li,
 .veniarecent .cards > ul > li {
   border: 0px solid #dadada;
   background-color: transparent;
 }
-
 .veniaheadtxt a:any-link {
   color: #fff;
   text-decoration: none;
   word-break: break-word;
 }
- 
 .veniaheadtxt a:hover {
   color: #fff;
   text-decoration: underline;
@@ -389,6 +389,9 @@ main .section.highlight {
   border-radius: 0%;
   overflow: hidden;
   height: auto;
+}
+h2#top-sellers {
+  text-align: center;
 }
 .veniarecent1 p {
   font-size: 12px;

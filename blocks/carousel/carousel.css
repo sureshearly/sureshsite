@@ -65,7 +65,19 @@
     width: 81%;
     top: 140px;
   }
-  
+  .venianxt .carousel .carousel-slide .carousel-slide-content {
+    z-index: 1;
+    margin: 0;
+    padding: 56px;
+    color: #fff;
+    background-color: #000;
+    position: relative;
+    width:35%;
+    top: 0;
+  }
+  h2#ullamcorper-sit-amet-ligula {
+    color: #fff;
+}
   .carousel .carousel-slide-indicators {
     display: flex;
     flex-wrap: wrap;

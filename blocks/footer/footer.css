@@ -58,21 +58,23 @@ footer .footer p {
   display: inline-block;
   position: relative;
   top: -20px;
-  margin-left: 40px;
+  margin-left: 0px;
+  width: 20%;
 }
 .veniaheadtxt ul {
-  width: 20%;
+  width: auto;
   float: left;
 }
 .veniaheadtxt ul {
   padding: 0;
 }
 .veniaheadtxt li {
-  font-size: 13px;
-  font-weight: bold;
+  font-size: 14px;
+  font-weight: normal;
   display: block;
   list-style: none;
   padding: 0 20px;
+  line-height: 30px;
 }
 .veniapara p {
   font-size: 12px;

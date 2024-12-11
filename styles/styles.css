@@ -383,12 +383,12 @@ main .section.highlight {
 }
 .veniarecent1 .cards > ul > li img {
   width: 200px;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: auto;
   object-fit: cover;
   border: 37px;
-  border-radius: 60%;
+  border-radius: 0%;
   overflow: hidden;
-  height: 200px;
+  height: auto;
 }
 .veniarecent1 p {
   font-size: 12px;

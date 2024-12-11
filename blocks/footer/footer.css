@@ -13,30 +13,34 @@ footer .footer > div {
 footer .footer p {
   margin: 0;
 }
-.wkndtxt {
+.veniatxt {
   display: inline-block;
 }
-.wkndtxt p {
+.veniatxt p {
   font-size: 45px;
   font-weight: bold;
 }
-.wkndheadtxt {
+.veniaheadtxt {
   display: inline-block;
   position: relative;
   top: -20px;
   margin-left: 40px;
 }
-.wkndheadtxt ul {
+.veniaheadtxt ul {
+  width: 20%;
+  float: left;
+}
+.veniaheadtxt ul {
   padding: 0;
 }
-.wkndheadtxt li {
+.veniaheadtxt li {
   font-size: 13px;
   font-weight: bold;
-  display: inline-block;
+  display: block;
   list-style: none;
   padding: 0 20px;
 }
-.wkndpara p {
+.veniapara p {
   font-size: 12px;
   display: inline-block;
   list-style: none;

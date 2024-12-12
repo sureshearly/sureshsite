@@ -414,6 +414,30 @@ h2#top-sellers {
 .veniarecent1 a.button:focus,
 .veniarecent1 button:hover,
 .veniarecent1 button:focus {
-  background-color: var(--link-hover-color);
+  background-color: #0000ff !important;
   cursor: pointer;
+}
+.veniarecent1>a.button:any-link,
+.veniarecent1>a.button,
+veniarecent1>button {
+  box-sizing: border-box;
+  display: inline-block;
+  max-width: 100%;
+  margin: 0;
+  border: 0px solid transparent;
+  border-radius: 0;
+  padding: 0;
+  font-family: var(--body-font-family);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25;
+  text-align: center;
+  text-decoration: none;
+  background-color: 	#0000ff !important;
+  color: #fff;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-transform: uppercase;
 }

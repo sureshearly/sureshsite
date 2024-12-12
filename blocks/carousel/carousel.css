@@ -172,3 +172,15 @@
   .wkndcaroul h1, .wkndcaroul h2, .wkndcaroul h3, .wkndcaroul h4, .wkndcaroul h5, .wkndcaroul h6 {
     margin-top: 0;
 }
+
+.veniacaroul .carousel .carousel-slide .carousel-slide-content {
+  z-index: 1;
+  margin: 5px 68px;
+  padding: 16px;
+  color: #000;
+  background-color: transparent;
+  position: relative;
+  width: 45%;
+  top: 0px;
+  text-align: center;
+}

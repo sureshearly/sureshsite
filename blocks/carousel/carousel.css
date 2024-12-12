@@ -184,3 +184,14 @@
   top: 0px;
   text-align: center;
 }
+.veniacaroul .carousel .carousel-slide {
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+}

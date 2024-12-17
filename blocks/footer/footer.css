@@ -139,7 +139,7 @@ footer .footer p {
     float: left;
   }
   .wkndheadtxt li {
-    text-align: center;
+    text-align: left;
   }
   .veniaheadtxt {
     display: inline-block;
@@ -188,10 +188,6 @@ footer .footer p {
   width: 100%;
   padding: 0;
   text-align: center;
-}
-.wkndheadtxt ul {
-  width: 20%;
-  float: left;
 }
 .wkndheadtxt li {
   display: block;

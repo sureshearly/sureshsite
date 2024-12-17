@@ -27,7 +27,7 @@ footer .footer p {
   margin-left: 40px;
 }
 .wkndheadtxt ul {
-  width: 20%;
+  width: auto;
   float: left;
 }
 .wkndheadtxt ul {
@@ -188,5 +188,12 @@ footer .footer p {
   width: 100%;
   padding: 0;
   text-align: center;
+}
+.wkndheadtxt ul {
+  width: 20%;
+  float: left;
+}
+.wkndheadtxt li {
+  display: block;
 }
 }

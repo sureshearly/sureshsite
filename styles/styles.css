@@ -350,7 +350,6 @@ main .section.highlight {
   text-align: center;
 }
 .wkndrecent1 > button {
-
   background-color: #ebebeb !important;
 }
 .wkndrecent1 a.button:hover,
@@ -440,4 +439,16 @@ veniarecent1>button {
   text-overflow: ellipsis;
   white-space: nowrap;
   text-transform: uppercase;
+}
+.veniacar {
+  background-color: transparent;
+  text-align: center;
+  position: relative;
+}
+.veniacar h5,
+.veniacar h4 {
+  position: relative;
+}
+@media screen and (min-width: 320px) and (max-width: 640px) {
+
 }

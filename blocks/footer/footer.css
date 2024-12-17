@@ -133,3 +133,60 @@ footer .footer p {
   width: 8%;
   padding: 0;
 }
+@media screen and (min-width: 320px) and (max-width: 640px) {
+  .wkndheadtxt ul {
+    width: 100%;
+    float: left;
+  }
+  .wkndheadtxt li {
+    text-align: center;
+  }
+  .veniaheadtxt {
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    margin-left: 0px;
+    width: 100%;
+    text-align: center;
+  }
+  .veniaheadtxt {
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    margin-left: 0px;
+    width: 100%;
+  }
+  .veniaheadtxt ul {
+    width: 100%;
+    float: left;
+}
+.veniause li:nth-child(2) {
+  font-size: 14px;
+  font-weight: normal;
+  width: 100%;
+  text-align: center;
+}
+.veniause li:first-child {
+  font-size: 34px;
+  font-weight: bold;
+  width: 90%;
+  text-align: center;
+  position: relative;
+  top: 5px;
+}
+.veniause li:nth-child(2) {
+  font-size: 14px;
+  font-weight: normal;
+  width: 85%;
+  text-align: center;
+  margin: 10px;
+  line-height: 22px;
+}
+.veniause li:nth-child(3), .veniause li:nth-child(4) {
+  font-size: 14px;
+  font-weight: normal;
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
+}

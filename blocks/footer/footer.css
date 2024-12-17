@@ -36,7 +36,7 @@ footer .footer p {
 .wkndheadtxt li {
   font-size: 13px;
   font-weight: bold;
-  display: block;
+  display: inline-block;
   list-style: none;
   padding: 0 20px;
 }

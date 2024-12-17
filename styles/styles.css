@@ -445,10 +445,58 @@ veniarecent1>button {
   text-align: center;
   position: relative;
 }
-.veniacar h5,
-.veniacar h4 {
+.veniacar1 {
+  background-color: transparent;
+  text-align: center;
   position: relative;
 }
+.veniacar1 h5 {
+  position: absolute;
+  top: 70px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.veniacar1 h4 {
+  position: absolute;
+  top:0;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 20px;
+}
 @media screen and (min-width: 320px) and (max-width: 640px) {
-
+  .veniacar1 h5 {
+    position: absolute;
+    top: 70px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  .veniacar1 h4 {
+    position: absolute;
+    top:0;
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  .veniacar1 h5 {
+    position: relative;
+    top: 0px;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  .veniacar1 h4 {
+    position: relative;
+    top:0;
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
 }
